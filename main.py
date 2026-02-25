@@ -3,7 +3,7 @@ from discord.ext import commands
 
 import os
 
-bot.run(os.getenv("MTQ3NjAyNzY4MTI0NDk3MTA3NA.G3WR33.pNH3aCG4nGWkyOEaA0FVA1zFe4tfJrf2ojUcP0"))
+bot.run(os.getenv("TOKEN"))
 CANAL_REGISTRO_ID = 1472964421201428571  # PON AQUI EL ID DEL CANAL
 
 intents = discord.Intents.default()
