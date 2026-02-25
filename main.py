@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
 
-TOKEN = MTQ3NjAyNzY4MTI0NDk3MTA3NA.GTbwom.dSWo1DrDSyP2ybHFU0CipavenFtfozdQQNQ6_o
+import os
+TOKEN = os.getenv(MTQ3NjAyNzY4MTI0NDk3MTA3NA.GTbwom.dSWo1DrDSyP2ybHFU0CipavenFtfozdQQNQ6_o) 
 CANAL_REGISTRO_ID = 1472964421201428571  # PON AQUI EL ID DEL CANAL
 
 intents = discord.Intents.default()
